@@ -40,11 +40,11 @@ def main():
     
     #Load Files
     print "\nScanning Files. Please wait.."
-    #al_compiler.scan()
-    #gocc_compiler.scan()
-    #pmd_compiler.scan()
-    #cmd_compiler.scan()
-    #wo_compiler.scan()
+    al_compiler.scan()
+    gocc_compiler.scan()
+    pmd_compiler.scan()
+    cmd_compiler.scan()
+    wo_compiler.scan()
     power_compiler.scan()
     print "Scan Complete.\n"
     
@@ -55,7 +55,7 @@ def main():
     #loop prompting for user command
     #al_crawler.crawl()
     #wo_crawler.crawl()
-    power_crawler.crawl()
+    #power_crawler.crawl()
     
     while (False):
         counter=0 
